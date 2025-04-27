@@ -36,7 +36,7 @@ def load_and_log():
     Loads data, formats it as DataFrames, and logs it to Weights & Biases.
     """
     with wandb.init(
-        project="MLOps-Pycon2023",
+        project="Diabetes",
         name=f"Load Raw Data ExecId-{args.IdExecution}",
         job_type="load-data"
     ) as run:
