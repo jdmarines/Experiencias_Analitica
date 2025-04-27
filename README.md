@@ -1,4 +1,4 @@
-# Experiencias_Analitica
+# Experiencias Analitica
 
 Este proyecto aplica un flujo de trabajo de MLOps utilizando Weights & Biases (WandB) para el tracking de experimentos y GitHub Actions para la automatización de entrenamientos.
 El modelo principal es una regresión lineal entrenada sobre el dataset de Diabetes de Scikit-learn.
