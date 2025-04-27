@@ -3,7 +3,7 @@ name: Preprocess Raw Data like artifact to wandb
 on:
   workflow_run:
     workflows: ["Load Raw Data like artifact to wandb"]
-    branches: [master]
+    branches: [main]
     types: 
       - completed
   push:
