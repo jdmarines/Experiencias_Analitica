@@ -3,7 +3,7 @@ ame: Build Model like artifact to wandb
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'src/model/build.py'
 
