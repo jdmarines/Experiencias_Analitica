@@ -41,7 +41,7 @@ def evaluate_model(model, X, y):
 # Train and Evaluate
 def train_and_evaluate(experiment_id='0'):
     with wandb.init(
-        project="MLOps-Pycon2023",
+        project="Diabetes",
         name=f"Train-Eval LinearRegression ExecId-{execution_id} ExperimentId-{experiment_id}",
         job_type="train-eval"
     ) as run:
