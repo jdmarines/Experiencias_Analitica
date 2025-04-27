@@ -4,7 +4,7 @@ name: Load Raw Data like artifact to wandb
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'src/data/load.py'
 
